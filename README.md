@@ -8,15 +8,16 @@ https://nodejs.org/en/download/
 
 Download and install MongoDB
 https://www.mongodb.com/
-From CMD or Shell, change directory (cd) to the install location of MongoDB.
-cd to the bin directory and post the command "MongoDB" to initiate the database service.
+From CMD or Shell, change directory (cd) to the /bin directory of the install location of MongoDB.
+Post the command "MongoDB" to initiate the database service.
 
 Download a version of the MEAN-Leaflet-JWT application into a directory
 
 Go to MapBox and create a free account and generate a unique access token.
 https://www.mapbox.com/studio/account/tokens/
+
 Replace the 'INSERT_TOKEN_HERE' text in the /angular-src/src/app/environments/environment.js file with your generated token.
-This token is used to access their map library.
+This token is used to access the map library.
 
 
 With CMD or Shell, change directory (cd) to the root folder of the application.
